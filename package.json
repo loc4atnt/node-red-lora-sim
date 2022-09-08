@@ -1,0 +1,19 @@
+{
+  "name": "node-red-lora-sim",
+  "version": "1.2.5",
+  "description": "",
+  "main": "lora-sim/lora-sim.js",
+  "author": "loc4atnt",
+  "dependencies": {
+    "lora-packet": "^0.8.11",
+    "packet-forwarder": "^1.0.8",
+    "packet-forwarder-json-builder": "^2.0.8",
+    "random": "^2.2.0"
+  },
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "lora-sim": "lora-sim/lora-sim.js"
+    }
+  }
+}
